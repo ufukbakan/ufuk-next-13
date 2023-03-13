@@ -6,10 +6,10 @@ import dynamic from "next/dynamic";
 export default function Home() {
   const Bg = dynamic(() => import("../components/BackgroundHO"), { ssr: false });
   return (
-    <>
+    <div className="scrollable-content">
       <Bg></Bg>
       <Nav></Nav>
       <MainMenu></MainMenu>
-    </>
+    </div>
   )
 }

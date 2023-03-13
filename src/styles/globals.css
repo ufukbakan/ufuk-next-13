@@ -9,6 +9,12 @@ body {
   overflow: hidden;
 }
 
+.scrollable-content{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100svh;
+}
+
 ::selection{
   background-color: rgba(0, 255, 81, 0.9);
   color: var(--bg);

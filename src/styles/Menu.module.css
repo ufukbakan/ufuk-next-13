@@ -98,8 +98,8 @@
 
 
 .active-card{
-    transition: all 3s, transform 2s;
-    transform: rotateY(0deg) rotateX(0deg) translateZ(100px) scale(10) !important;
+    transition: all 1.5s, transform 1s;
+    transform: rotateY(0deg) rotateX(0deg) translateZ(100px) scale(4) !important;
     opacity: 0;
     pointer-events: none;
 }

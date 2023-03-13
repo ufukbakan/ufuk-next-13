@@ -1,24 +1,9 @@
-import FloatCard from "./FloatCard";
+import useHash from "@/hooks/useHash";
 import styles from "@/styles/Menu.module.css";
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import FloatCard from "./FloatCard";
 
 export default function () {
-    const router = useRouter();
-    const [hash, setHash] = useState<string>(global.location ? global.location.hash : "");
-
-    useEffect(() => {
-        if (global.window) {
-            var onHashChange = (e: HashChangeEvent) => { setHash(e.newURL.slice(e.newURL.lastIndexOf("#"))) };
-            window.addEventListener("hashchange", onHashChange);
-        }
-
-        return (() => {
-            if (global.window) {
-                window.removeEventListener("hashchange", onHashChange);
-            }
-        });
-    }, [global.window]);
+    const hash = useHash();
 
     return (
         <div className={styles["card-container"]}>
