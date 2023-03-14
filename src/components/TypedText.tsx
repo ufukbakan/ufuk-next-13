@@ -2,7 +2,7 @@ import { prcInterval } from "precision-timeout-interval";
 import { useEffect, useState } from "react";
 
 export default function (text: string, speed = 1, play = true) {
-    const [state, setState] = useState(play ? text : "");
+    const [state, setState] = useState(play ? "" : text);
 
     useEffect(() => {
         let i = 0;
