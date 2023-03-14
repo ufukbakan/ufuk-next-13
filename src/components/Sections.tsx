@@ -1,8 +1,18 @@
 import styles from '@/styles/Sections.module.css';
+import { useRouter } from 'next/router';
 
 export default function () {
+    const router = useRouter();
+
+    function goBack() {
+        router.back();
+    }
+
     return (
         <>
+            <div id={styles['back-button']} onClick={goBack}>
+                <img src='/arrow.svg' />
+            </div>
             <div className={styles['section']} id="about">
                 <h2>About Me</h2>
                 <p></p>
