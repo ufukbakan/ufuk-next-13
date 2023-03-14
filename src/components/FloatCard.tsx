@@ -1,4 +1,5 @@
 import styles from "@/styles/Menu.module.css";
+import Link from "next/link";
 import { CSSProperties, ReactNode, useEffect, useRef, useState } from "react";
 
 type FloatCardProps = {
@@ -41,10 +42,10 @@ export default function (props: FloatCardProps) {
     }, [props.active, global.window]);
 
     return (
-        <a ref={element} href={props.href} className={styleList.join(" ")} style={customStyle}>
+        <Link ref={element} href={props.href || "/"} className={styleList.join(" ")} style={customStyle}>
             <div className={styles["float-card"]}>
                 {props.children}
             </div>
-        </a>
+        </Link>
     )
 }
