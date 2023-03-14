@@ -1,5 +1,6 @@
 import styles from '@/styles/Sections.module.css';
 import { useRouter } from 'next/router';
+import About from './About';
 
 export default function () {
     const router = useRouter();
@@ -15,7 +16,7 @@ export default function () {
             </div>
             <div className={styles['section']} id="about">
                 <h2>About Me</h2>
-                <p></p>
+                <About />
             </div>
             <div className={styles['section']} id="education">
                 <h2>Education</h2>
@@ -28,7 +29,7 @@ export default function () {
                     <li className={styles['education-info']}>
                         <span className={styles["school"]}>Gazi University Computer Science (Faculty of Engineering)</span>
                         <span className={styles["location"]}>Ankara, Turkey</span>
-                        <span className={styles["points"]}>3.79 / 4.00</span>
+                        <span className={styles["points"]}>3.79 / 4.00<br />Third place</span>
                     </li>
                 </ol>
             </div>

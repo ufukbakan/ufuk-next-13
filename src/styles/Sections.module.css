@@ -1,5 +1,6 @@
 .section {
     position: absolute;
+    display: none;
     pointer-events: none;
     opacity: 0;
     transition: opacity ease .5s 0s, transform ease .5s .5s;
@@ -10,6 +11,7 @@
 }
 
 .section:target {
+    display: block;
     position: relative;
     pointer-events: initial;
     opacity: 1;
