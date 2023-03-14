@@ -7,12 +7,12 @@
 
 .card-container:has(.float-card:hover) .float-card {
     color: #555;
-    border: 2px solid rgb(0, 70, 22);
+    box-shadow: 0px 0px 5px 2px rgb(0, 70, 22);
 }
 
 .card-container:has(.float-card:hover) .float-card:hover {
     color: var(--fg);
-    border: 2px solid rgb(0, 255, 81);
+    box-shadow: 0px 0px 5px 2px rgb(0, 255, 81);
 }
 
 .float-card {
@@ -24,7 +24,8 @@
     width: 12em;
     height: 6em;
     font-size: 2em;
-    border: 2px solid rgb(0, 255, 81);
+    /* border: 2px solid rgb(0, 255, 81); */
+    box-shadow: 0px 0px 5px 2px rgb(0, 255, 81);
     box-sizing: border-box;
     border-radius: 10px;
     overflow: hidden;

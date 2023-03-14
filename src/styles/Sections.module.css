@@ -98,9 +98,10 @@ body:has(.section:target) #back-button:hover{
     
     .education-info {
         display: grid;
-        grid-template-columns: 1fr 11ch;
+        grid-template-columns: 1fr 9ch;
         text-align: left;
-        gap: 1.5rem;
+        gap: .2rem;
+        column-gap: 1rem;
         padding-bottom: .5rem;
         padding-left: .5rem;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
