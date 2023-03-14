@@ -2,7 +2,7 @@
     max-height: 200svh;
     overflow: hidden;
     transition: all .6s linear;
-    transition-delay: 0;
+    transition-delay: 0s;
 }
 
 .card-container:has(.float-card:hover) .float-card {
@@ -111,4 +111,12 @@
     transition: all 1.5s, transform 1s;
     opacity: 0;
     pointer-events: none;
+}
+
+@media screen and (max-width: 25em) {
+
+    .float-card {
+        width: 100svw;
+    }
+
 }

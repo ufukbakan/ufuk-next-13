@@ -21,14 +21,14 @@ export default function () {
                 <h2>Education</h2>
                 <ol id={styles['education-list']}>
                     <li className={styles['education-info']}>
-                        <span className="school">Macit Zeren Science High School</span>
-                        <span className="location">Amasya, Turkey</span>
-                        <span className="points">92 / 100</span>
+                        <span className={styles["school"]}>Macit Zeren Science High School</span>
+                        <span className={styles["location"]}>Amasya, Turkey</span>
+                        <span className={styles["points"]}>92 / 100</span>
                     </li>
                     <li className={styles['education-info']}>
-                        <span className="school">Gazi University Computer Science (Faculty of Engineering)</span>
-                        <span className="location">Ankara, Turkey</span>
-                        <span className="points">3.79 / 4.00</span>
+                        <span className={styles["school"]}>Gazi University Computer Science (Faculty of Engineering)</span>
+                        <span className={styles["location"]}>Ankara, Turkey</span>
+                        <span className={styles["points"]}>3.79 / 4.00</span>
                     </li>
                 </ol>
             </div>
