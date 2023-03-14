@@ -1,3 +1,10 @@
+.card-container {
+    max-height: 200svh;
+    overflow: hidden;
+    transition: all .6s linear;
+    transition-delay: 0;
+}
+
 .card-container:has(.float-card:hover) .float-card {
     color: #555;
     border: 2px solid rgb(0, 70, 22);
@@ -96,6 +103,9 @@
     pointer-events: none;
 }
 
+.card-container:has(.active-card) {
+    max-height: 0;
+}
 
 .active-card {
     transition: all 1.5s, transform 1s;

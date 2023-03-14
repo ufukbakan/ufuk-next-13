@@ -1,0 +1,14 @@
+.section {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity ease .5s 0s, transform ease .5s .5s;
+    transform: translateX(-100%);
+}
+
+.section:target {
+    position: relative;
+    pointer-events: initial;
+    opacity: 1;
+    transform: translateX(0);
+}

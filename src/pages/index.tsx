@@ -1,5 +1,6 @@
 import MainMenu from "@/components/MainMenu";
 import Nav from "@/components/Nav";
+import Sections from "@/components/Sections";
 import dynamic from "next/dynamic";
 
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Bg></Bg>
       <Nav></Nav>
       <MainMenu></MainMenu>
+      <Sections></Sections>
     </div>
   )
 }
