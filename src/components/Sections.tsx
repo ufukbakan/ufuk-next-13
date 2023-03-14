@@ -11,7 +11,7 @@ export default function () {
     return (
         <>
             <div id={styles['back-button']} onClick={goBack}>
-                <img src='/arrow.svg' />
+                <img src='/arrow.svg' alt='Back button' />
             </div>
             <div className={styles['section']} id="about">
                 <h2>About Me</h2>
