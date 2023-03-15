@@ -3,7 +3,7 @@
     transition: opacity ease .5s 0s, transform ease .5s .5s;
     width: 100%;
     box-sizing: border-box;
-    padding: 1rem 1rem 0 1rem;
+    padding: 2rem 1rem 0 1rem;
     animation: section-entering ease 1.5s;
 }
 
@@ -54,7 +54,7 @@
     height: 1rem;
     position: fixed;
     left: 1rem;
-    transform: translateY(-50%);
+    transform: translateY(-2rem);
     background-image: radial-gradient(circle, rgba(10, 10, 10, 1) 0%, rgba(201, 201, 201, 1) 200%);
     border-radius: 50%;
     box-sizing: content-box;
@@ -89,6 +89,16 @@
     object-fit: contain;
     transform: scaleX(-1);
     pointer-events: none;
+}
+
+@media screen and (hover: none) {
+    .section {
+        padding-top: 0;
+    }
+
+    #back-button {
+        bottom: 1rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
