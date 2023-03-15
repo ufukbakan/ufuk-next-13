@@ -31,11 +31,11 @@
 }
 
 @keyframes glitchAnim {
-    0% {
+    0%, 20%, 40% {
         clip-path: inset(0 0 50% 0);
     }
 
-    100% {
+    30%, 100% {
         clip-path: inset(50% 0 0 0);
     }
 }
