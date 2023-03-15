@@ -9,6 +9,7 @@ type FloatCardProps = {
     active?: boolean
 }
 export default function (props: FloatCardProps) {
+    const isMobile = /Android|iPhone/.test(global.window?.navigator?.userAgent ?? "");
     const [styleList, setStyleList] = useState([
         styles["float-card-link"]
     ]);
@@ -29,8 +30,9 @@ export default function (props: FloatCardProps) {
             const diffToY = (shouldInY - element.current.getBoundingClientRect().y);
             setCustomStyle({
                 ...customStyle,
-                "transform": `translate(${diffToX}px, ${diffToY}px) scale(4)`
+                "transform": `translate(${diffToX}px, ${diffToY}px)${isMobile ? "" : " scale(4)"}`
             })
+            console.log(`translate(${diffToX}px, ${diffToY}px)${isMobile ? "" : " scale(4)"}`);
         } else {
             setStyleList([
                 styles["float-card-link"]
