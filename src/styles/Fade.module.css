@@ -1,0 +1,19 @@
+@keyframes fade-in {
+    0%, 70% {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    100% {
+        opacity: 1;
+        pointer-events: initial;
+    }
+}
+
+.fading {
+    opacity: 1;
+    animation-name: fade-in;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    transition: opacity .4s;
+}

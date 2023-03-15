@@ -32,7 +32,6 @@ export default function (props: FloatCardProps) {
                 ...customStyle,
                 "transform": `translate(${diffToX}px, ${diffToY}px)${isMobile ? "" : " scale(4)"}`
             })
-            console.log(`translate(${diffToX}px, ${diffToY}px)${isMobile ? "" : " scale(4)"}`);
         } else {
             setStyleList([
                 styles["float-card-link"]
