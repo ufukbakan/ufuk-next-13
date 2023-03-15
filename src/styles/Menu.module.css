@@ -25,7 +25,7 @@
     height: 6em;
     font-size: 2em;
     /* border: 2px solid rgb(0, 255, 81); */
-    box-shadow: 0px 0px 5px 2px rgb(0, 255, 81);
+    box-shadow: 0px 0px 5px 2px rgb(0, 98, 31);
     box-sizing: border-box;
     border-radius: 10px;
     overflow: hidden;
@@ -61,13 +61,13 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-image:
-        linear-gradient(0deg, rgb(4, 36, 0) 0px, rgb(0, 255, 81) 10px,
-            rgb(4, 36, 0) 20px, rgb(0, 255, 81) 30px,
-            rgb(4, 36, 0) 40px, rgb(0, 255, 81) 50px,
-            rgb(4, 36, 0) 60px, rgb(0, 255, 81) 70px,
-            rgb(4, 36, 0) 80px);
-    background-size: 100% 80px;
+    background-image: linear-gradient(0deg,
+            rgb(4, 36, 0) 0px, rgb(0, 255, 81) 6px,
+            rgb(4, 36, 0) 12px, rgb(0, 255, 81) 18px,
+            rgb(4, 36, 0) 24px, rgb(0, 255, 81) 30px,
+            rgb(4, 36, 0) 36px, rgb(0, 255, 81) 42px,
+            rgb(4, 36, 0) 48px);
+    background-size: 100% 48px;
     background-repeat: repeat-y;
     animation: swipe-bg 1s linear infinite;
     opacity: .1;
@@ -100,7 +100,7 @@
     }
 
     100% {
-        background-position: 0 -20px;
+        background-position: 0 -12px;
     }
 }
 
