@@ -5,7 +5,7 @@ import TechStack from './TechStack';
 import TypedText from "./TypedText";
 
 export default function () {
-    const content = TypedText("Ufuk Bakan, a software developer from Turkey, was born in Çorum. Have worked on many different subjects including AI, ML, cryptology, big data & web development.", 3, 1);
+    const content = TypedText("Ufuk Bakan, a software developer from Turkey, have worked on many different subjects including AI, ML, cryptology, big data, web & desktop development.", 3, 1);
 
     return (
         <div className={styles['section']} id="about">

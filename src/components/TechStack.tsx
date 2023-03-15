@@ -15,7 +15,7 @@ export default function () {
                 <GoldenTech img='/icons/sql-server.png'>SQL</GoldenTech>
                 <GoldenTech img='/icons/html-5.png'>HTML</GoldenTech>
                 <Tech img='/icons/scala.png'>Scala</Tech>
-                <Tech img='/icons/kotlin.png'>Kotlin</Tech>
+                <Tech img='/icons/kotlin.svg'>Kotlin</Tech>
                 <Tech img='/icons/cassandra.png'>CQL</Tech>
                 <Tech img='/icons/c-sharp.png'>C#</Tech>
                 <Tech img='/icons/python.png'>Python</Tech>
@@ -37,23 +37,25 @@ export default function () {
                 <GoldenTech img='/icons/fastify.png'>Fastify</GoldenTech>
                 <Tech img='/icons/nestjs.svg'>Nest.js</Tech>
                 <Tech img='/icons/kafka.svg'>Kafka</Tech>
-                <Tech img='/icons/kafka.svg'>Zookeeper</Tech>
-                <Tech img='/icons/kafka.svg'>Eureka</Tech>
+                <Tech img='/icons/zookeeper.png'>Zookeeper</Tech>
+                <Tech img='/icons/spring-cloud.svg'>Eureka</Tech>
             </ol>
             <h3>Data</h3>
             <ol>
+                <GoldenTech img='/icons/spring-data.png'>JPA</GoldenTech>
+                <GoldenTech img='/icons/prisma.svg'>Prisma</GoldenTech>
                 <GoldenTech img='/icons/postgres.png'>PostgreSQL</GoldenTech>
                 <Tech img='/icons/mysql.png'>MySQL</Tech>
-                <Tech img='/icons/oracle'>Oracle</Tech>
-                <GoldenTech img='/icons/redis.png'>Redis</GoldenTech>
-                <Tech img='/icons/mongo.png'>MongoDB</Tech>
+                <Tech img='/icons/oracle-db.png'>Oracle</Tech>
+                <Tech img='/icons/redis.png'>Redis</Tech>
+                <Tech img='/icons/mongodb.svg'>MongoDB</Tech>
+                <Tech img='/icons/cassandra.png'>Cassandra</Tech>
+                <Tech img='/icons/typeorm.svg'>TypeORM</Tech>
                 <Tech img='/icons/tensorflow.svg'>Tensorflow</Tech>
                 <Tech img='/icons/keras.svg'>Keras</Tech>
                 <Tech img='/icons/scikit.svg'>Scikitlearn</Tech>
-                <Tech img='/icons/kafka.svg'>Hadoop</Tech>
-                <Tech img='/icons/cassandra.png'>Cassandra</Tech>
-                <GoldenTech img='/icons/elastic.png'>Elasticsearch</GoldenTech>
-                <GoldenTech img='/icons/elastic.png'>Kibana</GoldenTech>
+                <Tech img='/icons/hadoop.png'>Hadoop</Tech>
+                <Tech img='/icons/grafana.png'>Grafana</Tech>
             </ol>
             <h3>Frontend</h3>
             <ol>
@@ -72,19 +74,21 @@ export default function () {
                 <GoldenTech img='/icons/mocha.ico'>Mocha</GoldenTech>
                 <GoldenTech img='/icons/chai.png'>Chai</GoldenTech>
                 <GoldenTech img='/icons/selenium.png'>Selenium</GoldenTech>
-                <Tech img='/icons/eslint.svg'>ESLint</Tech>
+                <Tech img='/icons/eslint.png'>ESLint</Tech>
                 <Tech img='/icons/sonarlint.svg'>SonarLint</Tech>
             </ol>
             <h3>CI/CD</h3>
             <ol>
-                <GoldenTech img='/icons/gitlab.svg'>Gitlab</GoldenTech>
+                <GoldenTech img='/icons/gitlab.png'>Gitlab</GoldenTech>
                 <GoldenTech img='/icons/jira.svg'>Jira</GoldenTech>
                 <GoldenTech img='/icons/github.svg'>Github</GoldenTech>
+                <GoldenTech img='/icons/youtrack.svg'>YouTrack</GoldenTech>
+                <Tech img='/icons/trello.png'>Trello</Tech>
             </ol>
             <h3>Deployment</h3>
             <ol>
-                <GoldenTech img='/icons/aws.svg'>AWS</GoldenTech>
-                <GoldenTech img='/icons/docker.svg'>Docker</GoldenTech>
+                <GoldenTech img='/icons/aws.png'>AWS</GoldenTech>
+                <GoldenTech img='/icons/docker.png'>Docker</GoldenTech>
             </ol>
         </div>
     )
