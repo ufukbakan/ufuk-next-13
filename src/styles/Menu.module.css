@@ -70,7 +70,7 @@
                             );
     background-size: 100% 80px;
     background-repeat: repeat-y;
-    animation: swipe-bg 100s linear infinite;
+    animation: swipe-bg 10s linear infinite;
     opacity: .1;
 }
 
@@ -101,7 +101,7 @@
     }
 
     100% {
-        background-position: 0 -1000%;
+        background-position: 0 -100%;
     }
 }
 
