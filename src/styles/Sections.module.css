@@ -62,24 +62,33 @@
     cursor: pointer;
     z-index: 2;
     opacity: .5;
-    animation: breath ease-in-out 1s infinite alternate;
+    animation: fade-in ease 3s 0s 1, breath ease-in-out 1s 3s infinite alternate;
     transition: opacity ease-in-out .5s;
     user-select: none;
 }
 
 #back-button:hover {
-    animation: none;
-    opacity: 1;
-    transition: opacity .4s;
+    animation-play-state: paused;
+    opacity: 1 !important;
+}
+
+@keyframes fade-in {
+    0%, 50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .4;
+    }
 }
 
 @keyframes breath {
     0% {
-        opacity: .5;
+        opacity: .4;
     }
 
     100% {
-        opacity: .75;
+        opacity: .55;
     }
 }
 
