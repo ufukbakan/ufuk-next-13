@@ -6,16 +6,11 @@ body {
   color: var(--fg);
   font-family: 'Exo 2';
   font-weight: 400;
-  overflow: hidden;
-}
-
-.scrollable-content{
-  overflow-y: auto;
   overflow-x: hidden;
-  height: 100svh;
+  overflow-y: auto;
 }
 
-::selection{
+::selection {
   background-color: rgba(0, 255, 81, 0.9);
   color: var(--bg);
 }
@@ -39,7 +34,7 @@ body {
   height: 100%;
 }
 
-.g-1{
+.g-1 {
   gap: 2rem;
 }
 
@@ -80,6 +75,6 @@ body {
 
 @media screen and (max-width: 799px) {
   .v-stack {
-      gap: 0;
+    gap: 0;
   }
 }
