@@ -59,6 +59,10 @@ class CanvasHandler {
         this.mousePosition = { x: e.clientX, y: e.clientY };
         this.#trails.push(new Trail(1, { ...this.mousePosition }, 2, -Math.PI / 2, 3000, true));
     };
+    #touchMoveCallback = (e: TouchEvent) => {
+        this.mousePosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+        this.#trails.push(new Trail(1, { ...this.mousePosition }, 2, -Math.PI / 2, 3000, true));
+    }
 
     constructor(canvas: HTMLCanvasElement) {
         this.canvas = canvas;
@@ -66,6 +70,7 @@ class CanvasHandler {
         window.addEventListener("resize", this.#dimensionCallback);
         // window.addEventListener("click", this.#clickCallback.bind(this));
         window.addEventListener("mousemove", this.#mouseMoveCallback);
+        window.addEventListener("touchmove", this.#touchMoveCallback);
         if (canvas) {
             this.#timerUpdate = prcIntervalWithDelta(50, this.update.bind(this));
             this.#timerDraw = prcInterval(1000 / this.FPS, this.draw.bind(this));
@@ -101,6 +106,7 @@ class CanvasHandler {
     end() {
         window.removeEventListener("resize", this.#dimensionCallback);
         window.removeEventListener("mousemove", this.#mouseMoveCallback);
+        window.removeEventListener("touchmove", this.#touchMoveCallback);
         if (this.#timerUpdate)
             this.#timerUpdate.cancel();
         if (this.#timerDraw)
@@ -148,9 +154,11 @@ export default function () {
 
     useEffect(() => {
         const canvasHandler = new CanvasHandler(canvasRef.current as HTMLCanvasElement);
-        window.addEventListener("resize", () => setDimensions({ width: window.innerWidth, height: window.innerHeight }));
+        const dimensionUpdater = () => setDimensions({ width: window.innerWidth, height: window.innerHeight });
+        window.addEventListener("resize", dimensionUpdater);
         return () => {
             canvasHandler.end();
+            window.removeEventListener("resize", dimensionUpdater);
         }
     }, [window, canvasRef.current]);
 
