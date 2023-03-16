@@ -1,6 +1,6 @@
 import styles from '@/styles/About.module.css';
-import GoldenTech from './GoldenTech';
-import Tech from './Tech';
+import GoldenTech from './common/GoldenTech';
+import Tech from './common/Tech';
 
 export default function () {
     return (
@@ -21,10 +21,10 @@ export default function () {
                 <Tech img='/icons/python.png'>Python</Tech>
                 <Tech img='/icons/php.png'>PHP</Tech>
                 <Tech img='/icons/godot.png'>GDScript</Tech>
-                <Tech img='/icons/c.png'>C</Tech>
+                <Tech img='/icons/prolog.png'>Prolog</Tech>
                 <Tech img='/icons/haskell.png'>Haskell</Tech>
                 <Tech img='/icons/ruby.png'>Ruby</Tech>
-                <Tech img='/icons/prolog.png'>Prolog</Tech>
+                <Tech img='/icons/c.png'>C</Tech>
                 <Tech img='/icons/assembly.png'>x8086 Assembly</Tech>
             </ol>
             <h3>Backend</h3>
@@ -94,6 +94,28 @@ export default function () {
             <ol>
                 <GoldenTech img='/icons/aws.png'>AWS</GoldenTech>
                 <GoldenTech img='/icons/docker.png'>Docker</GoldenTech>
+            </ol>
+            <h3>Graphics</h3>
+            <ol>
+                <GoldenTech img='/icons/blender.png'>Blender</GoldenTech>
+                <GoldenTech img='/icons/photoshop.png'>Photoshop</GoldenTech>
+                <GoldenTech img='/icons/illustrator.png'>Illustrator</GoldenTech>
+                <Tech img='/icons/figma.png'>Figma</Tech>
+            </ol>
+            <h3>OS</h3>
+            <ol>
+                <GoldenTech img='/icons/windows.png'>Windows</GoldenTech>
+                <GoldenTech img='/icons/linux.png'>Linux</GoldenTech>
+            </ol>
+            <h3>Tools</h3>
+            <ol>
+                <GoldenTech img='/icons/vscode.png'>VSCode</GoldenTech>
+                <GoldenTech img='/icons/intellij.png'>IntelliJ IDEA</GoldenTech>
+                <GoldenTech img='/icons/postman.png'>Postman</GoldenTech>
+                <GoldenTech img='/icons/visual-studio.png'>Visual Studio</GoldenTech>
+                <Tech img='/icons/wireshark.png'>Wireshark</Tech>
+                <Tech img='/icons/vim.png'>Vim</Tech>
+                <Tech img='/icons/putty.png'>Putty</Tech>
             </ol>
         </div>
     )
