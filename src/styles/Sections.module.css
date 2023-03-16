@@ -3,7 +3,7 @@
     transition: opacity ease .5s 0s, transform ease .5s .5s;
     width: 100%;
     box-sizing: border-box;
-    padding: 2rem 1rem 0 1rem;
+    padding: 0 1rem;
     animation: section-entering ease 1.5s;
 }
 
@@ -49,12 +49,20 @@
     text-align: left;
 }
 
+#back-button-wrapper {
+    position: sticky;
+    top: 0;
+    padding: 1rem 0 ;
+}
+
+#back-button-wrapper.slided{
+    background-color: rgba(10, 10, 10, .8);
+}
+
 #back-button {
     width: 1rem;
     height: 1rem;
-    position: fixed;
-    left: 1rem;
-    transform: translateY(-2rem);
+    /* transform: translateY(-2rem); */
     background-image: radial-gradient(circle, rgba(10, 10, 10, 1) 0%, rgba(201, 201, 201, 1) 200%);
     border-radius: 50%;
     box-sizing: content-box;
@@ -73,7 +81,9 @@
 }
 
 @keyframes fade-in {
-    0%, 50% {
+
+    0%,
+    50% {
         opacity: 0;
     }
 
@@ -105,7 +115,9 @@
         padding-top: 0;
     }
 
-    #back-button {
+    #back-button-wrapper {
+        position: fixed;
+        top: unset;
         bottom: 1rem;
     }
 }
