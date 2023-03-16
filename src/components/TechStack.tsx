@@ -23,9 +23,9 @@ export default function () {
                 <Tech img='/icons/godot.png'>GDScript</Tech>
                 <Tech img='/icons/c.png'>C</Tech>
                 <Tech img='/icons/haskell.png'>Haskell</Tech>
-                <Tech img='/icons/ruby.svg'>Ruby</Tech>
+                <Tech img='/icons/ruby.png'>Ruby</Tech>
                 <Tech img='/icons/prolog.png'>Prolog</Tech>
-                <Tech img='/icons/assembly.svg'>x8086 Assembly</Tech>
+                <Tech img='/icons/assembly.png'>x8086 Assembly</Tech>
             </ol>
             <h3>Backend</h3>
             <ol>
@@ -35,7 +35,7 @@ export default function () {
                 <GoldenTech img='/icons/express.png'>Express.js</GoldenTech>
                 <GoldenTech img='/icons/nextjs.png'>Next.js</GoldenTech>
                 <GoldenTech img='/icons/fastify.png'>Fastify</GoldenTech>
-                <Tech img='/icons/nestjs.svg'>Nest.js</Tech>
+                <Tech img='/icons/nestjs.png'>Nest.js</Tech>
                 <Tech img='/icons/kafka.svg'>Kafka</Tech>
                 <Tech img='/icons/zookeeper.png'>Zookeeper</Tech>
                 <Tech img='/icons/spring-cloud.svg'>Eureka</Tech>
@@ -50,18 +50,21 @@ export default function () {
                 <Tech img='/icons/redis.png'>Redis</Tech>
                 <Tech img='/icons/mongodb.svg'>MongoDB</Tech>
                 <Tech img='/icons/cassandra.png'>Cassandra</Tech>
-                <Tech img='/icons/typeorm.svg'>TypeORM</Tech>
+                <Tech img='/icons/typeorm.png'>TypeORM</Tech>
                 <Tech img='/icons/tensorflow.svg'>Tensorflow</Tech>
                 <Tech img='/icons/keras.svg'>Keras</Tech>
-                <Tech img='/icons/scikit.svg'>Scikitlearn</Tech>
+                <Tech img='/icons/scikit.png'>Scikitlearn</Tech>
                 <Tech img='/icons/hadoop.png'>Hadoop</Tech>
                 <Tech img='/icons/grafana.png'>Grafana</Tech>
             </ol>
             <h3>Frontend</h3>
             <ol>
+                <GoldenTech img='/icons/vitejs.svg'>Vite.js</GoldenTech>
                 <GoldenTech img='/icons/react.svg'>React</GoldenTech>
+                <GoldenTech img='/icons/electron.svg'>Electron.js</GoldenTech>
                 <Tech img='/icons/preact.svg'>Preact</Tech>
                 <Tech img='/icons/solid.svg'>Solid</Tech>
+                <Tech img='/icons/threejs.svg'>Three.js</Tech>
                 <Tech img='/icons/svelte.svg'>Svelte</Tech>
             </ol>
             <h3>QA</h3>
@@ -71,9 +74,10 @@ export default function () {
                 <GoldenTech img='/icons/boottest.svg'>Boottest</GoldenTech>
                 <GoldenTech img='/icons/vitest.svg'>Vitest</GoldenTech>
                 <GoldenTech img='/icons/jest.svg'>Jest</GoldenTech>
-                <GoldenTech img='/icons/mocha.ico'>Mocha</GoldenTech>
+                <GoldenTech img='/icons/mocha.svg'>Mocha</GoldenTech>
                 <GoldenTech img='/icons/chai.png'>Chai</GoldenTech>
                 <GoldenTech img='/icons/selenium.png'>Selenium</GoldenTech>
+                <Tech img='/icons/sinon.png'>Sinon</Tech>
                 <Tech img='/icons/eslint.png'>ESLint</Tech>
                 <Tech img='/icons/sonarlint.svg'>SonarLint</Tech>
             </ol>
