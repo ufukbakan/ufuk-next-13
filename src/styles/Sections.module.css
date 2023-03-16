@@ -114,20 +114,27 @@
     pointer-events: none;
 }
 
+.experience-list p {
+    text-align: justify;
+}
+
 .experience-list li{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .experience-list img{
-    width: 2em;
-    height: 1em;
+    width: 2rem;
+    height: 1.2rem;
     object-fit: contain;
     display: inline-block;
+    vertical-align: bottom;
 }
 
 .experience-list h4{
-    display: inline-block;
-    margin-bottom: .2rem;
+    display: inline;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    margin: .2rem 0 .2rem .5rem;    
 }
 
 
