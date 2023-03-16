@@ -8,11 +8,12 @@ export default function () {
             <h2>Experiences</h2>
             <ol className={styles['experience-list']}>
                 <li>
-                    <img src='/icons/freelancer.svg' alt='icon of freelancer.com'/>
+                    <img src='/icons/freelancer.svg' alt='icon of freelancer.com' />
                     <h4>Web developer at Freelancer.com (January 2019 - June 2019)</h4>
                     <p>I worked as a freelance designer & developer; designed web pages and logos, developed mail templates and web sites with Html, Css & Javascript.</p>
                 </li>
                 <li>
+                    <img src="/icons/teststb.png" alt="icon of test stb" />
                     <h4>Summer Intern at TEST STB (June 2020 - August 2020)</h4>
                     <p>I worked on a selenium project with other interns. The project was a Python Selenium bot for testing
                         the frontend of demo web site of Yetenek Kapısı (talentgate.org) which is supported by government. Project succeeded to
@@ -20,10 +21,12 @@ export default function () {
                     </p>
                 </li>
                 <li>
+                    <img src="/icons/uzmankirala.png" alt="icon of uzmankirala.com" />
                     <h4>Web developer at Uzmankirala.com (July 2021 - August 2021)</h4>
                     <p>I worked as a freelance web developer, developed web sites with React.js, JQuery, Php & Wordpress.</p>
                 </li>
                 <li>
+                    <img src="/icons/bilgem.png" alt="icon of tübitak" />
                     <h4>Summer Intern at TÜBİTAK BİLGEM YTE (June 2021 - August 2021)</h4>
                     <p>I got Linux, PostgreSQL, Docker, Java, Spring Boot, JPA, Hibernate, Persistance, Clean Code,
                         Javascript and React.js courses and developed a Spring Boot Web project alongside React + Vite.js
@@ -31,6 +34,7 @@ export default function () {
                     </p>
                 </li>
                 <li>
+                    <img src="/icons/bilgem.png" alt="icon of tübitak" />
                     <h4>Software Engineer at TÜBİTAK BİLGEM YTE (August 2021 - August 2022)</h4>
                     <p>I worked as a remote full stack software developer for the project Turkey's Treasury and Financial
                         management system which worths billions of dolars and consists of dozens of microservices.
@@ -40,6 +44,7 @@ export default function () {
                         financial system and wrote unit and integration tests to achieve 100% coverage. </p>
                 </li>
                 <li>
+                    <img src="/icons/tcicisleri.png" alt="icon of t.c. ministry of interior" />
                     <h4>Software Engineer at T.C. İçişleri Bakanlığı (August 2022 - Now)</h4>
                     <p>I'm currently developing web services for a distributed big data environment with HDFS file system.
                         I'm developing React + Typescript frontends alongside Java Spring Boot and Express.js backends and

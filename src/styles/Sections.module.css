@@ -113,6 +113,24 @@
     pointer-events: none;
 }
 
+.experience-list li{
+    margin-bottom: 1rem;
+}
+
+.experience-list img{
+    width: 2em;
+    height: 1em;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.experience-list h4{
+    display: inline-block;
+    margin-bottom: .2rem;
+}
+
+
+
 @media screen and (hover: none) {
     .section {
         padding-top: 0;
