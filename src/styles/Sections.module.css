@@ -52,10 +52,13 @@
 #back-button-wrapper {
     position: sticky;
     top: 0;
-    padding: 1rem 0 ;
+    padding: 0 0 1rem 0;
+    z-index: 2;
+    transition: background-color .4s, padding .2s;
 }
 
-#back-button-wrapper.slided{
+#back-button-wrapper.slided {
+    padding: 1rem 0;
     background-color: rgba(10, 10, 10, .8);
 }
 
