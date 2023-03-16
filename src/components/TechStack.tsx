@@ -107,16 +107,6 @@ export default function () {
                 <GoldenTech img='/icons/windows.png'>Windows</GoldenTech>
                 <GoldenTech img='/icons/linux.png'>Linux</GoldenTech>
             </ol>
-            <h3>Tools</h3>
-            <ol>
-                <GoldenTech img='/icons/vscode.png'>VSCode</GoldenTech>
-                <GoldenTech img='/icons/intellij.png'>IntelliJ IDEA</GoldenTech>
-                <GoldenTech img='/icons/postman.png'>Postman</GoldenTech>
-                <GoldenTech img='/icons/visual-studio.png'>Visual Studio</GoldenTech>
-                <Tech img='/icons/wireshark.png'>Wireshark</Tech>
-                <Tech img='/icons/vim.png'>Vim</Tech>
-                <Tech img='/icons/putty.png'>Putty</Tech>
-            </ol>
         </div>
     )
 }
