@@ -14,8 +14,8 @@ export default function () {
             <p>
                 {content}
             </p>
-            {/* {fadeElement(techStack, 4)} */}
-            {fadeComponent(TechStack, 0)}
+            {/* {fadeComponent(TechStack, 0)} */}
+            <TechStack />
 
         </div>
     )
