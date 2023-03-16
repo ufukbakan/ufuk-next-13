@@ -97,15 +97,15 @@ export default function () {
             </ol>
             <h3>Graphics</h3>
             <ol>
-                <GoldenTech img='/icons/blender.png'>Blender</GoldenTech>
-                <GoldenTech img='/icons/photoshop.png'>Photoshop</GoldenTech>
+                <GoldenTech img='/icons/blender.svg'>Blender</GoldenTech>
+                <GoldenTech img='/icons/photoshop.svg'>Photoshop</GoldenTech>
                 <GoldenTech img='/icons/illustrator.png'>Illustrator</GoldenTech>
                 <Tech img='/icons/figma.png'>Figma</Tech>
             </ol>
             <h3>OS</h3>
             <ol>
                 <GoldenTech img='/icons/windows.png'>Windows</GoldenTech>
-                <GoldenTech img='/icons/linux.png'>Linux</GoldenTech>
+                <GoldenTech img='/icons/linux.svg'>Linux</GoldenTech>
             </ol>
         </div>
     )
