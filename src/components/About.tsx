@@ -1,8 +1,7 @@
 import styles from '@/styles/Sections.module.css';
-import BackButton from './BackButton';
-import { fadeComponent, fadeElement } from './Fade';
+import BackButton from './common/BackButton';
 import TechStack from './TechStack';
-import TypedText from "./TypedText";
+import TypedText from "./common/TypedText";
 
 export default function () {
     const content = TypedText("Ufuk Bakan, a software developer from Turkey, have worked on many different subjects including AI, ML, cryptology, big data, web & desktop development.", 3, 1);

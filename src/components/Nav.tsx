@@ -1,6 +1,5 @@
-import HackyText from "./HackyText";
-import styles from "@/styles/Nav.module.css"
-import Head from "next/head";
+import styles from "@/styles/Nav.module.css";
+import HackyText from "./common/HackyText";
 
 export default function () {
     return (

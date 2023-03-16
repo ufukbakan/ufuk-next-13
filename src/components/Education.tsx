@@ -1,5 +1,5 @@
 import styles from '@/styles/Sections.module.css';
-import BackButton from './BackButton';
+import BackButton from './common/BackButton';
 
 export default function () {
     return (

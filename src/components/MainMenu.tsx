@@ -1,8 +1,6 @@
 import usePath from "@/hooks/usePath";
 import styles from "@/styles/Menu.module.css";
-import { useEffect } from "react";
-import FloatCard from "./FloatCard";
-import GoldenText from "./GoldenText";
+import FloatCard from "./common/FloatCard";
 
 export default function () {
     const path = usePath();
@@ -12,7 +10,7 @@ export default function () {
             <div className="v-stack w-full g-1">
                 <div className="h-stack space-evenly">
                     <FloatCard active={path === "/about"} bg="/developer.png" href="/about">Me<br />&<br />My Tech Stack</FloatCard>
-                    <FloatCard active={path === "/education"} bg="/graduation.png" href="/education"><GoldenText>Education</GoldenText></FloatCard>
+                    <FloatCard active={path === "/education"} bg="/graduation.png" href="/education">Education</FloatCard>
                 </div>
                 <div className="h-stack space-evenly">
                     <FloatCard active={path === "/experiences"} bg="/work.png" href="/experiences">Experiences</FloatCard>
