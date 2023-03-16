@@ -4,6 +4,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 0 1rem;
+    margin-bottom: 4rem;
     animation: section-entering ease 1.5s;
 }
 
@@ -139,7 +140,7 @@
     #back-button-wrapper {
         position: fixed;
         top: unset;
-        bottom: 1rem;
+        bottom: 0;
     }
 }
 
