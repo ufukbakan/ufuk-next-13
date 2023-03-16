@@ -65,6 +65,7 @@ export default function () {
                 <Tech img='/icons/preact.svg'>Preact</Tech>
                 <Tech img='/icons/solid.svg'>Solid</Tech>
                 <Tech img='/icons/threejs.svg'>Three.js</Tech>
+                <Tech img='/icons/jquery.png'>JQuery</Tech>
                 <Tech img='/icons/svelte.svg'>Svelte</Tech>
             </ol>
             <h3>QA</h3>
