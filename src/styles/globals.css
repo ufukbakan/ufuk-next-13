@@ -10,6 +10,10 @@ body {
   overflow-y: auto;
 }
 
+a{
+  color: inherit;
+}
+
 ::selection {
   background-color: rgba(0, 255, 81, 0.9);
   color: var(--bg);

@@ -72,7 +72,6 @@ export default function () {
             <ol>
                 <GoldenTech img='/icons/junit.png'>JUnit</GoldenTech>
                 <GoldenTech img='/icons/mockito.png'>Mockito</GoldenTech>
-                <GoldenTech img='/icons/boottest.svg'>Boottest</GoldenTech>
                 <GoldenTech img='/icons/vitest.svg'>Vitest</GoldenTech>
                 <GoldenTech img='/icons/jest.svg'>Jest</GoldenTech>
                 <GoldenTech img='/icons/mocha.svg'>Mocha</GoldenTech>

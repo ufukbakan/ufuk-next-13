@@ -6,7 +6,7 @@ export default function () {
         <div className={styles['section']} id="projects">
             <BackButton />
             <h2>Projects</h2>
-            <p></p>
+            <p><a href="https://ufukbakan.github.io/cv/#projects">Currently listed in this link.</a></p>
         </div>
     )
 }
