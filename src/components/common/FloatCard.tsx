@@ -10,7 +10,7 @@ type FloatCardProps = {
 }
 export default function (props: FloatCardProps) {
     const isMobile = /Android|iPhone/.test(global.window?.navigator?.userAgent ?? "");
-    const [styleList, setStyleList] = useState([
+    const [classList, setClassList] = useState([
         styles["float-card-link"]
     ]);
     const [customStyle, setCustomStyle] = useState<CSSProperties>({
@@ -20,7 +20,7 @@ export default function (props: FloatCardProps) {
 
     useEffect(() => {
         if (props.active && element.current) {
-            setStyleList([
+            setClassList([
                 styles["float-card-link"],
                 styles["active-card"]
             ]);
@@ -33,7 +33,7 @@ export default function (props: FloatCardProps) {
                 "transform": `translate(${diffToX}px, ${diffToY}px)${isMobile ? "" : " scale(4)"}`
             })
         } else {
-            setStyleList([
+            setClassList([
                 styles["float-card-link"]
             ]);
             setCustomStyle({
@@ -43,7 +43,7 @@ export default function (props: FloatCardProps) {
     }, [props.active, global.window]);
 
     return (
-        <Link ref={element} href={props.href || "/"} className={styleList.join(" ")} style={customStyle}>
+        <Link ref={element} href={props.href || "/"} className={classList.join(" ")} style={customStyle}>
             <div className={styles["float-card"]}>
                 {props.children}
             </div>
