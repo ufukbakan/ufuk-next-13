@@ -33,7 +33,6 @@ export default function () {
                 <GoldenTech img='/icons/spring.png'>Spring Boot</GoldenTech>
                 <GoldenTech img='/icons/bootpress.png'>Bootpress</GoldenTech>
                 <GoldenTech img='/icons/express.png'>Express.js</GoldenTech>
-                <GoldenTech img='/icons/nextjs.png'>Next.js</GoldenTech>
                 <GoldenTech img='/icons/fastify.png'>Fastify</GoldenTech>
                 <Tech img='/icons/nestjs.png'>Nest.js</Tech>
                 <Tech img='/icons/kafka.svg'>Kafka</Tech>
@@ -59,9 +58,11 @@ export default function () {
             </ol>
             <h3>Frontend</h3>
             <ol>
-                <GoldenTech img='/icons/vitejs.svg'>Vite.js</GoldenTech>
                 <GoldenTech img='/icons/react.svg'>React</GoldenTech>
+                <GoldenTech img='/icons/vitejs.svg'>Vite.js</GoldenTech>
+                <GoldenTech img='/icons/nextjs.png'>Next.js</GoldenTech>
                 <GoldenTech img='/icons/electron.svg'>Electron.js</GoldenTech>
+                <GoldenTech img='/icons/tailwind.svg'>Tailwind CSS</GoldenTech>
                 <Tech img='/icons/preact.svg'>Preact</Tech>
                 <Tech img='/icons/solid.svg'>Solid</Tech>
                 <Tech img='/icons/threejs.svg'>Three.js</Tech>
