@@ -62,7 +62,9 @@ export default function () {
                 <GoldenTech img='/icons/vitejs.svg'>Vite.js</GoldenTech>
                 <GoldenTech img='/icons/nextjs.png'>Next.js</GoldenTech>
                 <GoldenTech img='/icons/electron.svg'>Electron.js</GoldenTech>
+                <GoldenTech img='/icons/primereact.svg'>PrimeReact</GoldenTech>
                 <GoldenTech img='/icons/tailwind.svg'>Tailwind CSS</GoldenTech>
+                <GoldenTech img='/icons/primereact.svg'>PrimeFlex</GoldenTech>
                 <Tech img='/icons/preact.svg'>Preact</Tech>
                 <Tech img='/icons/solid.svg'>Solid</Tech>
                 <Tech img='/icons/threejs.svg'>Three.js</Tech>
