@@ -60,6 +60,7 @@ export default function () {
             <ol>
                 <GoldenTech img='/icons/react.svg'>React</GoldenTech>
                 <GoldenTech img='/icons/vitejs.svg'>Vite.js</GoldenTech>
+                <GoldenTech img='/icons/recoil.svg'>Recoil</GoldenTech>
                 <GoldenTech img='/icons/nextjs.png'>Next.js</GoldenTech>
                 <GoldenTech img='/icons/electron.svg'>Electron.js</GoldenTech>
                 <GoldenTech img='/icons/primereact.svg'>PrimeReact</GoldenTech>
