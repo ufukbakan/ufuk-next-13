@@ -45,10 +45,23 @@ export default function () {
                 </li>
                 <li>
                     <img src="/icons/tcicisleri.png" alt="icon of t.c. ministry of interior" />
-                    <h4>Software Engineer at T.C. İçişleri Bakanlığı (August 2022 - Now)</h4>
-                    <p>I'm currently developing web services for a distributed big data environment with HDFS file system.
-                        I'm developing React + Typescript frontends alongside Java Spring Boot and Express.js backends and
+                    <h4>Software Engineer at T.C. İçişleri Bakanlığı (August 2022 - July 2023)</h4>
+                    <p>I developed web services for a distributed big data environment with HDFS file system.
+                        I alos contributed to React + Typescript frontends alongside Java Spring Boot and Express.js backends and
                         Spark jobs written in Scala. I've written unit and integration test for both frontend and backend with 90+% coverage.</p>
+                </li>
+                <li>
+                    <img src="/icons/metasis.svg" alt="icon of metasis teknoloji" className='bg-white circle' />
+                    <h4>Software Engineer at Metasis Teknoloji (July 2023 - Now)</h4>
+                    <p>Outsourced to YapiKredi Teknoloji.</p>
+                </li>
+                <li>
+                    <img src="/icons/ykt.svg" alt="icon of yapi kredi teknoloji" className='bg-white circle' />
+                    <h4>Software Engineer at YapiKredi Teknoloji (July 2023 - Now)</h4>
+                    <p>I've contributed to Java microservices, React micro front-ends, gateways & bffs.
+                        Spring boot framework is mainly used. I developed new services, coded unit & integration tests.
+                        Project has many integrations with external services like personal data access services which are provided by government.
+                        Atlassian CI/CD tools are used daily. I've developed dozens of React hooks for handling customer data in UI.</p>
                 </li>
             </ol>
         </div>

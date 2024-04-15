@@ -43,9 +43,10 @@ export default function () {
             <ol>
                 <GoldenTech img='/icons/spring-data.png'>JPA</GoldenTech>
                 <GoldenTech img='/icons/prisma.svg'>Prisma</GoldenTech>
+                <GoldenTech img='/icons/oracle-db.png'>Oracle</GoldenTech>
                 <GoldenTech img='/icons/postgres.png'>PostgreSQL</GoldenTech>
+                <Tech img='/icons/powerdesigner.png'>PowerDesigner</Tech>
                 <Tech img='/icons/mysql.png'>MySQL</Tech>
-                <Tech img='/icons/oracle-db.png'>Oracle</Tech>
                 <Tech img='/icons/redis.png'>Redis</Tech>
                 <Tech img='/icons/mongodb.svg'>MongoDB</Tech>
                 <Tech img='/icons/cassandra.png'>Cassandra</Tech>
