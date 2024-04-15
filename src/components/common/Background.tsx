@@ -55,13 +55,17 @@ class CanvasHandler {
     #trails: Trail[] = [];
 
     #dimensionCallback = () => { this.#dimensions = { width: window.innerWidth, height: window.innerHeight } };
+    #createTrail = () => {
+        if (this.#trails.length < (navigator.hardwareConcurrency || 4) * 10)
+            this.#trails.push(new Trail(1, { ...this.mousePosition }, 2, -Math.PI / 2, (navigator.hardwareConcurrency || 4) * 100, true));
+    };
     #mouseMoveCallback = (e: MouseEvent) => {
         this.mousePosition = { x: e.clientX, y: e.clientY };
-        this.#trails.push(new Trail(1, { ...this.mousePosition }, 2, -Math.PI / 2, 3000, true));
+        this.#createTrail();
     };
     #touchMoveCallback = (e: TouchEvent) => {
         this.mousePosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
-        this.#trails.push(new Trail(1, { ...this.mousePosition }, 2, -Math.PI / 2, 3000, true));
+        this.#createTrail();
     }
 
     constructor(canvas: HTMLCanvasElement) {
